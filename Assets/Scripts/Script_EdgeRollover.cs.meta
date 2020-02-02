@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8c6a0f222a05d2e4eaa75b10a9fcd150
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NorthernEdge: {fileID: 1185903405914728, guid: 9564d4e90d563054192dfc3c5c1b23f1,
+      type: 2}
+  - EasternEdge: {fileID: 1799981863142118, guid: e59a8b1c6c5665c40901c5d46ffcd2f7,
+      type: 2}
+  - SouthernEdge: {fileID: 1689673086358648, guid: 6f6a85322c6e9e348b41ee0468030f64,
+      type: 2}
+  - WesternEdge: {fileID: 1216393329064912, guid: e4d54c8d6ce19ed4f92a66931fd6c335,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
