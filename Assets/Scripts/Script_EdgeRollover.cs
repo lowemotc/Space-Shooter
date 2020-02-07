@@ -7,28 +7,28 @@ public class Script_EdgeRollover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (entity.position.x >= 100)
+        if (entity.position.x >= 50)
         {
             moveTo = entity.position;
-            moveTo.x = -99;
+            moveTo.x = -49;
             entity.SetPositionAndRotation(moveTo, entity.rotation);
         }
-        else if (entity.position.x <= -100)
+        else if (entity.position.x <= -50)
         {
             moveTo = entity.position;
-            moveTo.x = 99;
+            moveTo.x = 49;
             entity.SetPositionAndRotation(moveTo, entity.rotation);
         }
-        else if (entity.position.y >= 100)
+        else if (entity.position.y >= 50)
         {
             moveTo = entity.position;
-            moveTo.y = -99;
+            moveTo.y = -49;
             entity.SetPositionAndRotation(moveTo, entity.rotation);
         }
-        else if (entity.position.y <= -100)
+        else if (entity.position.y <= -50)
         {
             moveTo = entity.position;
-            moveTo.y = 99;
+            moveTo.y = 49;
             entity.SetPositionAndRotation(moveTo, entity.rotation);
         }
     }
