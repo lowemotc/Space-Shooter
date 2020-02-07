@@ -29,6 +29,13 @@ public class SpawnAsteroids : MonoBehaviour {
 
     void setAsteroidTransform()
     {
-        spawnDir.eulerAngles.Set(Random.value * 360, Random.value * 360, 0);
+        float xRngLow = player.position.x - 6;
+        float xRngHi = player.position.x + 6;
+        float yRngLow = player.position.y - 6;
+        float yRngHi = player.position.y + 6;
+
+        spawnPos.Set(Random.Range(xRngLow, xRngHi), Random.Range(yRngLow, yRngHi), 0);
+
+        spawnDir.Set(Random.Range(0, 360), Random.Range(0, 360), 0, spawnDir.w);
     }
 }
